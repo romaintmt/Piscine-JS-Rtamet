@@ -110,9 +110,14 @@ console.log("pas mutliple de 3 et 5")
 
 EXO 11
 
-function carlFriedrichGauss(a,b){
-  console.log(((a+b)*b)/2);
-  return ((a+b)*b)/2
+function bissextile (year){
+  if(year%4==0 && year%100!=0 || year%400==0 ){
+    console.log("toto");
+    return 0;
+  } else {
+    console.log("bibi");
+    return 1;
+  }
 }
 
 EXO 12
