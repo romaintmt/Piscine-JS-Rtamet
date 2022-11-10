@@ -1,0 +1,109 @@
+EXO 00
+
+function substract(nb1,nb2){
+return nb1-nb2;
+}
+
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  substract
+}
+
+EXO 01
+
+function add(nb1,nb2){
+  return nb1+nb2;
+}
+
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  add
+}
+
+EXO 02
+
+function multiply (nb1,nb2){
+ return nb1*nb2;
+}
+
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  multiply
+}
+
+EXO 03
+
+function divide (a,b){
+  if (b === 0) {
+    return("Forbidden")
+  } else {
+    return a/b;
+  }
+}
+
+EXO 04
+
+function modulo (nb1,nb2){
+return nb1%nb2;
+  }
+
+EXO 05
+
+for(let i = 0; i<=10; i= i+1）{
+  console.log(i);
+}
+console.log ("fin du programme")
+
+EXO 06
+
+for (let i = 2; i<=100; i=i+2) {
+  console.log(i);
+}
+
+
+EXO 07
+
+console. log( "hello user!")
+let name= prompt ( "how are you today ? What's your name")
+console. log( "have a nice day" + ' '+name+ '!')
+
+EXO 08
+
+console.log("Welcome to my secret diary !")
+
+const name = prompt("What's your name ?");
+
+if (name === "David") {
+  console.log("I really wanna stay at your house, and i hope this works out");
+} else {
+  console.log("Get away !");
+}
+
+EXO 09
+
+function choomChoom(a){
+  a = prompt("entrer un chiffre")
+  if ( a % 2 == 0) {
+    console.log("choom")
+  } else{
+    console.log("choomchoom")
+  }
+}
+choomChoom();
+
+EXO 10
+
+if (a % 3 == 0 && a % 5 == 0  ) {
+  console.log("CyberPunk2077");
+  return "CyberPunk2077";
+}  if ( a % 3 == 0){
+  console.log("Cyber")
+  return "Cyber"
+} if (a % 5 == 0 ){
+  console.log("Punk");
+  return "Punk";
+}  else {
+console.log("pas mutliple de 3 et 5")
+}
+
+}
