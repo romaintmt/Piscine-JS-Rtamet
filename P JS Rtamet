@@ -90,6 +90,14 @@ if (a%2==0) {
 }
 
 
+
+
+// Ne touchez pas les lignes en dessous
+module.exports = {
+  choomChoom
+}
+
+
 EXO 10
 
 function cyberNumber (a){
@@ -105,6 +113,11 @@ function cyberNumber (a){
   }
 }
 
+
+module.exports = {
+  cyberNumber
+}
+
 EXO 11
 
 function bissextile (year){
@@ -117,13 +130,18 @@ function bissextile (year){
   }
 }
 
+
+module.exports = {
+  bissextile
+}
+
 EXO 12
 
 function toto(a,b){
   console.log(((a+b)*b)/2);
   return ((a+b)*b)/2
 }
- 
+
 module.exports = {
   toto
 }
